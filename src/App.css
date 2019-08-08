@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  flex-direction: column;
+  border: 2px solid black;
+  padding: 2rem;
+  margin-left: 5%;
+}
+
+.title{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn{
+  position: relative;
+  font-size: 15px;
+  color: white;
+  margin-top: 10%;
+}
+
+.btn-primary{
+  background-color: blue;
+  color: white;
+  margin-top: 10%;
+}
+
+.addButton{
+  font-size: 20px;
+}
+
+.bodyContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 5%;
+}
